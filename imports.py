@@ -6,3 +6,4 @@ import ezcord
 # Import Python Packages
 import os
 from dotenv import load_dotenv
+import yaml
