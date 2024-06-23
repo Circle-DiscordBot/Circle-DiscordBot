@@ -1,0 +1,39 @@
+ban:
+  ban:
+    error_embed:
+      title: "Error"
+      description: "Ein Fehler ist aufgetreten, während versucht wurde, den Benutzer zu bannen.\n
+      `{error}`"
+    dm_embed:
+      title: "Gebannt"
+      description: "Du wurdest von **{guild}** von {moderator} für folgenden Grund gebannt:\n
+      `{reason}`"
+    ban_log_embed:
+      title: "Nutzer Gebannt"
+      description: "Nutzer: {user}\n
+      Moderator: {moderator}\n
+      Grund: {reason}"
+    ban_success_embed:
+      title: "Gebannt"
+      description: "Erfolgreich {user} für folgenden Grund gebannt:\n
+      `{reason}`"
+
+kick:
+  kick:
+    error_embed:
+      title: "Error"
+      description: "Ein Fehler ist aufgetreten, während versucht wurde, den Benutzer zu kicken.\n
+      `{error}`"
+    dm_embed:
+      title: "Kicked"
+      description: "Du wurdest von **{guild}** von {moderator} für folgenden Grund gekickt:\n
+      `{reason}`"
+    kick_log_embed:
+      title: "Nutzer Kicked"
+      description: "Nutzer: {user}\n
+      Moderator: {moderator}\n
+      Grund: {reason}"
+    kick_success_embed:
+      title: "Kicked"
+      description: "Erfolgreich {user} für folgenden Grund gekickt:\n
+      `{reason}`"

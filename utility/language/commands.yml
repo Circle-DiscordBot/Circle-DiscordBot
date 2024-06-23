@@ -1,7 +1,7 @@
 en:
   ban:
     name: ban
-    description: Ban a user from the server.
+    description: "[MODERATOR] Ban a user from the server."
     options:
       user:
         name: user
@@ -11,7 +11,7 @@ en:
         description: The reason for the ban.
     kick:
       name: kick
-      description: Kick a user from the server.
+      description: "[MODERATOR] Kick a user from the server."
       options:
         user:
           name: user
@@ -19,3 +19,25 @@ en:
         reason:
           name: reason
           description: The reason for the kick.
+
+de:
+  ban:
+    name: ban
+    description: "[MODERATOR] Banne einen Benutzer vom Server."
+    options:
+      user:
+        name: user
+        description: Der Benutzer, der gebannt werden soll.
+      reason:
+        name: reason
+        description: Der Grund für das Bannen.
+  kick:
+    name: kick
+    description: "[MODERATOR] Kicke einen Benutzer vom Server."
+    options:
+      user:
+        name: user
+        description: Der Benutzer, der gekickt werden soll.
+      reason:
+        name: reason
+        description: Der Grund für das Kicken.

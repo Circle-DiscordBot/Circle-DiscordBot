@@ -14,10 +14,12 @@ class ban(ezcord.Cog):
             error_embed = ezcord.TEmbed("error_embed", error="You cannot ban yourself!", color=embed_color)
             error_embed.set_footer(text=footer)
             await ctx.respond(embed=error_embed)
+            return
         if user == self.bot.user:
             error_embed = ezcord.TEmbed("error_embed", error="You cannot ban me!", color=embed_color)
             error_embed.set_footer(text=footer)
             await ctx.respond(embed=error_embed)
+            return
 
         # Send the user a DM (if enabled in settings)
         if mod_user_dm:

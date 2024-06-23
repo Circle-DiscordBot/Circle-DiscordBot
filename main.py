@@ -10,8 +10,11 @@ with open("utility/language/commands.yml", encoding="utf-8") as file:
 with open("utility/language/en.yml", encoding="utf-8") as file:
     en = yaml.safe_load(file)
 
+with open("utility/language/de.yml", encoding="utf-8") as file:
+    de = yaml.safe_load(file)
+
 # Localization settings
-string_locals = {"en": en}
+string_locals = {"en": en, "de": de}
 ezcord.i18n.I18N(string_locals, fallback_locale="en")
 
 if __name__ == "__main__":
