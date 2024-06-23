@@ -9,3 +9,13 @@ en:
       reason:
         name: reason
         description: The reason for the ban.
+    kick:
+      name: kick
+      description: Kick a user from the server.
+      options:
+        user:
+          name: user
+          description: The user to kick.
+        reason:
+          name: reason
+          description: The reason for the kick.

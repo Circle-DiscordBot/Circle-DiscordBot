@@ -17,3 +17,23 @@ ban:
       title: "Banned"
       description: "Successfully banned {user} for the following reason:\n
       `{reason}`"
+
+kick:
+  kick:
+    error_embed:
+      title: "Error"
+      description: "An error occurred while trying to kick the user.\n
+      `{error}`"
+    dm_embed:
+      title: "Kicked"
+      description: "You have been kicked from **{guild}** by {moderator} for the following reason:\n
+      `{reason}`"
+    kick_log_embed:
+      title: "User Kicked"
+      description: "User: {user}\n
+      Moderator: {moderator}\n
+      Reason: {reason}"
+    kick_success_embed:
+      title: "Kicked"
+      description: "Successfully kicked {user} for the following reason:\n
+      `{reason}`"
