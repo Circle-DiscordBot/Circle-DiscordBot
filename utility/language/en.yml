@@ -1,1 +1,19 @@
-Soon
+ban:
+  ban:
+    error_embed:
+      title: "Error"
+      description: "An error occurred while trying to ban the user.\n
+      `{error}`"
+    dm_embed:
+      title: "Banned"
+      description: "You have been banned from **{guild}** by {moderator} for the following reason:\n
+      `{reason}`"
+    ban_log_embed:
+      title: "User Banned"
+      description: "User: {user}\n
+      Moderator: {moderator}\n
+      Reason: {reason}"
+    ban_success_embed:
+      title: "Banned"
+      description: "Successfully banned {user} for the following reason:\n
+      `{reason}`"

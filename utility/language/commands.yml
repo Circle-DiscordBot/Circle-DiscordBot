@@ -1,1 +1,11 @@
-Soon
+en:
+  ban:
+    name: ban
+    description: Ban a user from the server.
+    options:
+      user:
+        name: user
+        description: The user to ban.
+      reason:
+        name: reason
+        description: The reason for the ban.
